@@ -9,3 +9,8 @@ while True:
    os.system("cls")
   else:
    os.system("clear")
+ elif main_terminal_shell == "whoami":
+  with open("username.txt","r") as username:
+   username_list = username.read()
+  print(username_list)
+  
