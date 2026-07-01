@@ -11,8 +11,9 @@ func main() {
 	if username == "admin" {
 		fmt.Println("Username Correct")
 		fmt.Println("Enter Password")
+		fmt.Scan(&passwd)
 		if passwd == "iusearchbtw" {
-			fmt.Println("Password Succsesful")
+			fmt.Println("Password successful")
 			fmt.Println("Welcome", username)
 		} else {
 			fmt.Println("Password Incorrect")
